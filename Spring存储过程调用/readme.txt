@@ -1,7 +1,14 @@
-Ê¹ÓÃÎÄ¼ş¼ĞÖĞµÄ StudentJDBCTemplate £¬MainApp ÎÄ¼şÌæ»» SpringEvent ÖĞµÄStudentJDBCTemplate ,MainApp ÎÄ¼ş¡£
+ä½¿ç”¨æ–‡ä»¶å¤¹ä¸­çš„ StudentJDBCTemplate ï¼ŒMainApp æ–‡ä»¶æ›¿æ¢ SpringEvent ä¸­çš„StudentJDBCTemplate ,MainApp æ–‡ä»¶ã€‚
 
-Ê¹ÓÃ grant Óï¾äÎªÓÃ»§¸³È¨£º
+ä½¿ç”¨ grant è¯­å¥ä¸ºç”¨æˆ·èµ‹æƒï¼š
 
 GRANT SELECT ON mysql.proc TO 'user'@'localhost';  
 
-£¨user ÊÇÓÃ»§Ãû£¬localhost ÊÇÊı¾İ¿âµÄ sid£©
+ï¼ˆuser æ˜¯ç”¨æˆ·åï¼Œlocalhost æ˜¯æ•°æ®åº“çš„ sidï¼‰
+
+å»ºè¡¨è¯­å¥ï¼š
+create table Student( id int not null auto_increment,
+name varchar(20) not null,
+age int not null,
+primary key(id)
+);
